@@ -69,12 +69,12 @@ module.exports = {
   ],
   templates: {
     Tag: '/tag/:id',
-    QuranPost: [
-      {
-        path: '/quran/:id',
-        component: './src/templates/QuranPost.vue'
-      }
-    ]
+    // QuranPost: [
+    //   {
+    //     path: '/quran/:id',
+    //     component: './src/templates/QuranPost.vue'
+    //   }
+    // ]
   },
   transformers: {
     remark: {
