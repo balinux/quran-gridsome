@@ -1,3 +1,4 @@
+
 // This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
@@ -67,7 +68,13 @@ module.exports = {
     },
   ],
   templates: {
-    Tag: '/tag/:id'
+    Tag: '/tag/:id',
+    QuranPost: [
+      {
+        path: '/quran/:id',
+        component: './src/templates/QuranPost.vue'
+      }
+    ]
   },
   transformers: {
     remark: {

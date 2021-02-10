@@ -40,6 +40,9 @@
           <li>
             <g-link to="/blog" class="text-copy-primary hover:text-gray-600" data-cypress="blog">Blog</g-link>
           </li>
+          <li>
+            <g-link to="/quranlistsurah" class="text-copy-primary hover:text-gray-600" data-cypress="blog">Quran</g-link>
+          </li>
         </ul>
       </nav>
     </header>
